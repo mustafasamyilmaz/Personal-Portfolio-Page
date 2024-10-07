@@ -9,7 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
     />
   </head>
   <body>
@@ -20,6 +20,7 @@
       </div>
       <ul>
         <li><a href="#home" class="is-active">Home</a></li>
+        <li><a href="#aboutme">About Me</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -32,19 +33,280 @@
     </nav>
 
     <main id="content-wrapper">
+      <!--Home-->
       <section id="home" class="full-height">
         <div class="container">
-          <h1 class="heading-1">Informatikstudent in Essen</h1>
-          <p>
+          <h1 class="heading-1" data-aos="fade-up">
+            Hi, ich bin Mustafa Sam,
+            <span style="color: hsl(31, 85%, 52%)">Informatikstudent</span
+            ><br />
+            in Essen
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="100">
             Als Informatikstudent habe ich besondere Freude daran, neben dem
             Studium, an persönlichen Projekten zu tüfteln und ersehne seitdem
-            praktische Erfahrung zu sammeln
+            praktische Erfahrung zu sammeln. Zu meinen Bereichen, wo ich bereits
+            erste Erfahrung gesammelt habe/Projekte fertiggestellt, gehören :
+            <br />
+            <span style="color: white; font-weight: bold">
+              Web-Entwicklung ( HTML, CSS, JavaScript, React, Django) <br />
+              Spieleentwicklung (C#, GoDot) <br />
+              .Net Core (C#) + relationale Datenbanken (MySQL)</span
+            >
           </p>
-          <div class="cta">
-            <a href="#" class="btn">Entdecken sie meine Projekte</a>
+          <div class="cta" data-aos="fade-up" data-aos-delay="200">
+            <a href="portfolio" class="btn">Zu meinem Portfolio</a>
+            <div class="social-links">
+              <a href="#"><i class="lab la-facebook"></i></a>
+              <a href="#"><i class="lab la-instagram"></i></a>
+              <a href="#"><i class="lab la-twitter"></i></a>
+              <a href="#"><i class="lab la-whatsapp"></i></a>
+            </div>
           </div>
         </div>
       </section>
+      <!--About Me-->
+      <section id="aboutme" class="full-height">
+        <div class="container">
+          <div class="intro">
+            <h6
+              class="heading-3"
+              data-aos="fade-up"
+              style="color: hsl(31, 85%, 52%)"
+            >
+              Über Mich
+            </h6>
+            <h2 class="heading-2" data-aos="fade-up">fjsdlkfjls</h2>
+          </div>
+
+          <div class="grid three-col-grid">
+            <div
+              class="card card-padding"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="las la-pencil-ruler"></i></div>
+              <h4 class="heading-3">dhfskjdhkh</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore perferendis labore temporibus nam! Optio, cupiditate
+                maxime.
+              </p>
+            </div>
+            <div
+              class="card card-padding"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="las la-pencil-ruler"></i></div>
+              <h4 class="heading-3">dhfskjdhkh</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore perferendis labore temporibus nam! Optio, cupiditate
+                maxime.
+              </p>
+            </div>
+            <div
+              class="card last card-padding"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="las la-pencil-ruler"></i></div>
+              <h4 class="heading-3">dhfskjdhkh</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore perferendis labore temporibus nam! Optio, cupiditate
+                maxime.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Portfolio-->
+      <section id="portfolio" class="full-height">
+        <div class="container">
+          <div class="intro">
+            <h6
+              class="heading-3"
+              style="color: hsl(31, 85%, 52%)"
+              data-aos="fade-up"
+            >
+              Neuesten Projekte
+            </h6>
+            <h2 class="heading-2" data-aos="fade-up">
+              Mein Portfolio auf Github
+            </h2>
+          </div>
+          <div class="grid two-col-grid">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <img src="./src/imgs/AD.png" alt="Projektbild" />
+              <div class="card-padding">
+                <h4 class="heading-3">"Astro Defense"</h4>
+                <p>
+                  Astro Defense is a similar to the classic retro Space Invader
+                  game which was made using the Unity Game Engine with C# and
+                  License-Free Game Assets from Websites like Itch.Io and my own
+                  Post-Processing Design
+                </p>
+                <a
+                  href="https://github.com/mustafasamyilmaz/Astro-Destruction?tab=readme-ov-file"
+                  >link to Github Repo:
+                  https://github.com/mustafasamyilmaz/Astro-Destruction?tab=readme-ov-file</a
+                >
+                <br /><br />
+                <a
+                  href="https://github.com/user-attachments/assets/bcab9c10-76ff-498f-afb8-37c9a6993641"
+                >
+                  Link to Gameplay Footage Hosted on Github (in the README File
+                  of Repository)
+                </a>
+              </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <img src="./src/imgs/AJ.png" alt="Projektbild" />
+              <div class="card-padding">
+                <h4 class="heading-3">"Altmarkt-Juwelier"</h4>
+                <p>
+                  This is a Freelance Job I did for a friend of mine who owns a
+                  Precious Metals Purchase and Sale Business. It was made using
+                  HTML, CSS, Bootstrap, AOS (Animate-On-Scroll Library) and some
+                  Icons from RemixIcon. It is of course responsive
+                </p>
+                <a href="https://github.com/mustafasamyilmaz/Altmarkt-Juwelier">
+                  link to github repo:
+                  https://github.com/mustafasamyilmaz/Altmarkt-Juwelier
+                </a>
+                <br />
+                <br />
+                <a href="https://mustafasamyilmaz.github.io/Altmarkt-Juwelier/">
+                  link directly to Altmarkt-Juwelier (Github-Pages-Hosting)
+                </a>
+              </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <img src="./src/imgs/PortfolioIMG.png" alt="Projektbild" />
+              <div class="card-padding">
+                <h4 class="heading-3">"Personal-Portfolio"</h4>
+                <p>
+                  This is the Portfolio Page you are currently on, displaying
+                  some of my most recent projects. It was made using HTML, CSS ,
+                  JavaScript and AOS (Animate-On-Scroll Library). This Page is
+                  also responsive
+                </p>
+                <a
+                  href="https://github.com/mustafasamyilmaz/Personal-Portfolio-Page"
+                >
+                  link to github repo:
+                  https://github.com/mustafasamyilmaz/Personal-Portfolio-Page
+                </a>
+                <br />
+                <br />
+                <a
+                  href="https://mustafasamyilmaz.github.io/Personal-Portfolio-Page/#home"
+                >
+                  link directly to Portfolio Page (Github-Pages-Hosting)
+                </a>
+              </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <img src="./src/imgs/AJ.png" alt="Projektbild" />
+              <div class="card-padding">
+                <h4 class="heading-3">"Altmarkt-Juwelier"</h4>
+                <p>
+                  This is a Freelance Job I did for a friend of mine who owns a
+                  Precious Metals Purchase and Sale Business. It was made using
+                  HTML, CSS, Bootstrap, AOS (Animate-On-Scroll Library) and some
+                  Icons from RemixIcon
+                </p>
+                <a
+                  href="https://github.com/mustafasamyilmaz/Personal-Portfolio-Page"
+                >
+                  link to github repo:
+                  https://github.com/mustafasamyilmaz/Personal-Portfolio-Page
+                </a>
+                <br />
+                <br />
+                <a
+                  href="https://mustafasamyilmaz.github.io/Personal-Portfolio-Page/#home"
+                >
+                  link directly to Portfolio Page (Github-Pages-Hosting)
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Contact-->
+      <section id="contact" class="full-height">
+        <div class="container">
+          <div class="intro">
+            <h6
+              class="heading-3"
+              data-aos="fade-up"
+              style="color: hsl(31, 85%, 52%)"
+            >
+              E-Mail Kontakt
+            </h6>
+            <h2 class="heading-2" data-aos="fade-up">
+              Lass uns in Kontakt treten!
+            </h2>
+          </div>
+          <form action="#" class="form">
+            <input
+              type="text"
+              required="required"
+              class="form-control"
+              placeholder="Enter Name"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            />
+            <input
+              type="email"
+              required="required"
+              class="form-control"
+              placeholder="Enter E-Mail"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            />
+            <input
+              type="text"
+              required="required"
+              class="form-control"
+              placeholder="Enter Subject"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            />
+            <textarea
+              class="form-control"
+              required="required"
+              rows="6"
+              placeholder="Enter Message"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            ></textarea>
+            <button
+              type="submit"
+              class="btn"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+      <!--Footer-->
+      <footer>
+        <div class="container">
+          <p class="heading-3">Designed By Mustafa Sam Yilmaz</p>
+          <div class="social-links">
+            <a href="#"><i class="lab la-facebook"></i></a>
+            <a href="#"><i class="lab la-instagram"></i></a>
+            <a href="#"><i class="lab la-twitter"></i></a>
+            <a href="#"><i class="lab la-whatsapp"></i></a>
+          </div>
+        </div>
+      </footer>
     </main>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
