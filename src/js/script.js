@@ -16,3 +16,8 @@ links.forEach((link) =>
     burger.classList.remove("is-active");
   })
 );
+
+// AOS
+AOS.init({
+  duration: 900,
+});
